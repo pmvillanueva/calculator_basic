@@ -1,0 +1,49 @@
+body {
+    background-image: url('images/chalkboard.jpg');
+}
+
+button {
+    width: 67px;
+    height: 67px;
+}
+
+div {
+    display: inline-block;
+}
+
+#clear, #clear-entry {
+    background-color: lightgrey;
+    text-transform: uppercase;
+    width: 102px;
+}
+
+#screen {
+    background: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 2em;
+    height: 90px;
+    width: 280px;
+    padding-top: 20px;
+}
+
+#zero-button {
+    width: 137px;
+}
+
+.calc_container {
+    background-color: whitesmoke;
+    border: 5px solid black;
+    border-radius: 5px;
+    height: 545px;
+    width: 320px;
+    left: 40%;
+    top: 20%;
+    position: absolute;
+    text-align: center;
+}
+
+.row {
+    width: 280px;
+    margin-top: 15px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="calc_container">
+        <div class="row">
+            <p id="screen"></p>
+            <div class="row">
+                <button type="button" class="btn btn-default btn-lg" id="clear">c</button>
+                <button type="button" class="btn btn-default btn-lg" id="clear-entry">ce</button>
+                <button type="button" class="btn btn-warning btn-lg operator">/</button>
+            </div>
+            <div class="row">
+                <button type="button" class="btn btn-default btn-lg number">7</button>
+                <button type="button" class="btn btn-default btn-lg number">8</button>
+                <button type="button" class="btn btn-default btn-lg number">9</button>
+                <button type="button" class="btn btn-warning btn-lg operator">x</button>
+            </div>
+            <div class="row">
+                <button type="button" class="btn btn-default btn-lg number">4</button>
+                <button type="button" class="btn btn-default btn-lg number">5</button>
+                <button type="button" class="btn btn-default btn-lg number">6</button>
+                <button type="button" class="btn btn-warning btn-lg operator">-</button>
+            </div>
+            <div class="row">
+                <button type="button" class="btn btn-default btn-lg number">1</button>
+                <button type="button" class="btn btn-default btn-lg number">2</button>
+                <button type="button" class="btn btn-default btn-lg number">3</button>
+                <button type="button" class="btn btn-warning btn-lg operator">+</button>
+            </div>
+            <div class="row">
+                <button type="button" class="btn btn-default btn-lg number" id="zero-button">0</button>
+                <button type="button" class="btn btn-default btn-lg number">.</button>
+                <button type="button" class="btn btn-warning btn-lg equals">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
